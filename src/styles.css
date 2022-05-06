@@ -3,9 +3,12 @@
   text-align: center;
 }
 .FloorPlan {
+  color: white;
   height: 80%;
   width: 80%;
   display: grid;
+  grid-template-columns: [line1]1fr 2fr 2fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
 }
 .BedRoom {
   background-color: #2f7087;
